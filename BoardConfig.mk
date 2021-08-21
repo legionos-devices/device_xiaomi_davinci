@@ -1,7 +1,5 @@
-BUILD_BROKEN_DUP_RULES := true
-
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 Project-LegionOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -17,6 +15,12 @@ AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
 AUDIO_FEATURE_ENABLED_INSTANCE_ID := true
 
 BOARD_USES_ALSA_AUDIO := true
+
+BUILD_BROKEN_DUP_RULES := true
+
+# ConfigStore
+TARGET_HAS_HDR_DISPLAY := true
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.davinci
