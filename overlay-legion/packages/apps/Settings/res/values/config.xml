@@ -25,10 +25,10 @@
     <bool name="config_supportScreenOffFod">true</bool>
 
     <!-- LegionOS About Overalys -->
-     <string name="legion_device_name_summary">Xiaomi Mi 9T</string>
+     <string name="legion_device_name_summary">Xiaomi Mi 9T / Redmi K20</string>
      <string name="legion_chipset_type_summary">Snapdragon 730</string>
      <string name="legion_gpu_summary">Adreno 618</string>
-     <string name="legion_camera_mp_summary">48 MP</string>
+     <string name="legion_camera_mp_summary">48 MP, Dual-LED flash, HDR, panorama</string>
      <string name="legion_screen_type_summary">AMOLED, HDR</string>
 
 </resources>

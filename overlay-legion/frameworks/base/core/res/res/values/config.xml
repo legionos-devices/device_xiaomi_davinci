@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-	<bool name="config_needCustomFODView">true</bool>
-
+   <bool name="config_needCustomFODView">true</bool>
+	
     <!-- Does the battery LED support multiple colors?
-    Used to decide if the user can change the colors -->
+         Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
-	    <!-- Defines the sysfs attribute path used by the device
+       <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable</string>
 
