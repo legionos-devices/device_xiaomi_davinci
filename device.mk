@@ -100,6 +100,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    
+# Remove some apps
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Sensors
 PRODUCT_PACKAGES += \
