@@ -16,6 +16,7 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=markkey014
 LEGION_MAINTAINER := markkey014
+LEGION_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
