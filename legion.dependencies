@@ -1,16 +1,16 @@
 [
   {
-    "repository":  "https://github.com/markkey014/android_kernel_xiaomi_sm6150",
+    "repository":  "https://github.com/legionos-devices/kernel_xiaomi_sm6150/",
     "target_path": "kernel/xiaomi/sm6150",
     "branch":      "11"
   },
   {
-    "repository":  "https://github.com/markkey014/android_vendor_xiaomi",
+    "repository":  "https://github.com/legionos-devices/vendor_xiaomi.git",
     "target_path": "vendor/xiaomi",
     "branch":      "11"
   },
   {
-    "repository":  "https://github.com/markkey014/android_device_xiaomi_sm6150-common-davinci",
+    "repository":  "https://github.com/legionos-devices/device_xiaomi_sm6150-common-davinci",
     "target_path": "device/xiaomi/sm6150-common",
     "branch":      "11"
     },
