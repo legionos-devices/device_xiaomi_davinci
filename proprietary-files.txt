@@ -23,6 +23,10 @@ vendor/lib/btaudio_offload_if.so
 vendor/lib/libadm.so
 vendor/lib/libqtigef.so
 
+# Batterysecret
+vendor/bin/batterysecret
+vendor/etc/init/init.batterysecret.rc
+
 # Camera
 vendor/bin/remosaic_daemon
 vendor/etc/camera/camxoverridesettings.txt
