@@ -1,3 +1,6 @@
+# Battery secret
+/vendor/bin/batterysecret                                         u:object_r:batterysecret_exec:s0
+
 # Display
 /sys/devices/platform/soc/soc:qcom,dsi-display/fod_ui                u:object_r:sysfs_fod:s0
 
@@ -8,3 +11,4 @@
 # Motor
 /dev/akm09970                                                        u:object_r:hall_device:s0
 /dev/drv8846_dev                                                     u:object_r:motor_device:s0
+
