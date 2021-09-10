@@ -3,6 +3,15 @@ ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
 
+# prop for amoled panel
+ro.vendor.display.type=oled
+
+# FOD
+persist.vendor.sys.fp.fod.location.X_Y=445,1931
+persist.vendor.sys.fp.fod.size.width_height=190,190
+ro.hardware.fp.fod=true
+ro.vendor.fod.dimlayer.enable=1
+
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
 persist.vendor.qg_cld_coff_gain=1.5
