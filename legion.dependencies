@@ -1,26 +1,26 @@
 [
   {
-    "repository":  "https://github.com/legionos-devices/kernel_xiaomi_sm6150/",
+    "repository":  "legionos-devices/kernel_xiaomi_sm6150/",
     "target_path": "kernel/xiaomi/sm6150",
     "branch":      "11"
   },
   {
-    "repository":  "https://github.com/legionos-devices/vendor_xiaomi.git",
+    "repository":  "legionos-devices/vendor_xiaomi.git",
     "target_path": "vendor/xiaomi",
     "branch":      "11"
   },
   {
-    "repository":  "https://github.com/legionos-devices/device_xiaomi_sm6150-common-davinci",
+    "repository":  "legionos-devices/device_xiaomi_sm6150-common-davinci",
     "target_path": "device/xiaomi/sm6150-common",
     "branch":      "11"
     },
    {
-    "repository":  "https://github.com/markkey014/MIUICamera",
+    "repository":  "markkey014/MIUICamera",
     "target_path": "vendor/aeonax/ANXCamera",
     "branch":      "main"
     },
     {
-    "repository":  "https://github.com/LineageOS/android_hardware_xiaomi",
+    "repository":  "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "branch":      "lineage-18.1"
     }
