@@ -21,4 +21,9 @@
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps</string>
+
+    <!-- The CPU temperature sensor path, CPU0 -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone16/temp</string>
 </resources>
