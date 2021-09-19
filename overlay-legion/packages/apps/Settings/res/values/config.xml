@@ -26,10 +26,9 @@
 
     <!-- LegionOS About Overalys -->
      <string name="legion_device_name_summary">Xiaomi Mi 9T / Redmi K20</string>
-     <string name="legion_chipset_type_summary">Qualcomm SDM730 Snapdragon 730 (8 nm)</string>
+     <string name="legion_chipset_type_summary">Qualcomm Snapdragon 730 (8 nm)</string>
      <string name="legion_gpu_summary">Adreno 618</string>
      <string name="legion_camera_mp_summary">48 MP, Dual-LED flash, HDR, panorama</string>
-     <string name="legion_screen_type_summary">6.39" Corning Gorilla Glass 5</string>
+     <string name="legion_screen_type_summary">AMOLED, HDR (1080 x 2340)</string>
 
 </resources>
-
