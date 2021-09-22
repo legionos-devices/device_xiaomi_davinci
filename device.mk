@@ -56,6 +56,12 @@ PRODUCT_COPY_FILES += \
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
+
+# Google Photos hack    
+ifeq ($(WITH_GAPPS), true)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nexus.xml
+endif
     
 # Hotword Enrollment
 PRODUCT_COPY_FILES += \
